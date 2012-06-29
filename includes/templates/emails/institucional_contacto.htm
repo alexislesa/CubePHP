@@ -1,0 +1,166 @@
+<html>
+<head>
+
+<title>Mail de Contacto</title>
+
+</head>
+
+<body>
+
+<div align="center">
+
+		<div align="left" style="width:540px;">
+
+		<table cellpadding='0' cellspacing='0' border='0' width='540'>
+		<tr><td style="border:1px solid #E6E6E6;padding:15px 20px 5px 20px;">
+	
+			<table cellpadding='0' cellspacing='0' border='0' width='100%'>
+			<tr>
+				<td height="24" style="border-bottom:1px solid #E6E6E6">
+					<a style="float:left;color:#2E3192;text-decoration:none;font-family:Arial, Helvetica;font-size:12px;font-weight:bold;" title="Ir al sitio" href="{web_site}" target="_blank">Ir al sitio</a>
+					
+					<span style="font-family:Arial, Helvetica;font-size:12px;float:right;color:#000000;font-weight:bold;"><b><?php echo date("d/m/Y");?></b><b >&nbsp;&nbsp;|&nbsp;&nbsp;</b>Hora: <b ><?php echo date("G:i");?></b></span> 
+				</td>
+			</tr>
+			
+			<tr><!--marginador-->
+				<td height="15"></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<img src="{web_site}/images/pop/logo.png" title="" alt="{web_site}" width="176" height="70" />
+				</td>
+			</tr>
+			
+			<tr><!--marginador-->
+				<td height="15"></td>
+			</tr>
+			
+			<tr>
+				<td height="26" style="background:#2E3192;vertical-align:middle;">
+					<span style="color:#FFF;text-transform:uppercase;font-weight:bold;font-size:13px;font-family:Arial, Helvetica;padding-left:10px;">Mensaje enviado desde <b>{web_site}</b></span>
+				</td>
+			</tr>
+			
+			<tr><!--marginador-->
+				<td height="15"></td>
+			</tr>
+				
+			<tr><!--el primero es diferente a los demas, lleva cuatro bordes-->
+				<td>
+					<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;"><b>Nombre: </b> {nombre}</span>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Apellido: </b> {apellido}</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>E-mail: </b> <a style="color:#2E3192;text-decoration:none;" href="mailto:{email}">{email}</b></span>
+				</td>
+			</tr>
+			
+			<?php if (!empty($im["tel_nro"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Teléfono Móvil: </b> {tel_pref} {tel_nro}</span>
+					</td>
+				</tr>
+			
+			<?php } ?>
+			
+			<?php if (!empty($im["tel_otro_nro"])) { ?>
+				
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Otro Teléfono: </b> {tel_otro_pref} {tel_otro_nro}</span>
+					</td>
+				</tr>
+			
+			<?php } ?>
+			
+			<?php if (!empty($im["pais_txt"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>País: </b> {pais_txt}</span>
+					</td>
+				</tr>
+				
+			<?php } ?>
+			
+			<?php if (!empty($im["provincia_txt"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Provincia: </b> {provincia_txt}</span>
+					</td>
+				</tr>
+
+			<?php } ?>
+			
+			<?php if (!empty($im["departamento_txt"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Departamento: </b> {departamento_txt}</span>
+					</td>
+				</tr>					
+
+			<?php } ?>
+			
+			<?php if (!empty($im["localidad_txt"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Localidad: </b> {localidad_txt}</span>
+					</td>
+				</tr>
+
+			<?php } ?>
+			
+			<?php if (!empty($im["asunto"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Asunto: </b> {asunto}</span>
+					</td>
+				</tr>
+
+			<?php } ?>
+			
+			<?php if (!empty($im["mensaje"])) { ?>
+			
+				<tr>
+					<td>
+						<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;border-top:0 none"><b>Mensaje: </b> {mensaje}</span>
+					</td>
+				</tr>
+	
+			<?php } ?>
+
+			<tr><td height="50"></td></tr>
+			
+			<tr>
+				<td height="40" valign="middle" style="border-top:1px solid #E6E6E6;text-align:left">
+					<span style="color:#2E3192;font-family:Arial, Helvetica;font-size:11px;">© <?php echo date("Y");?>, {web_site}. Todos los derechos reservados </span>
+				</td>
+			</tr>
+	
+			</table>
+	
+		</td></tr>
+		</table>
+
+	</div>
+	
+</div>
+
+</body>
+</html>

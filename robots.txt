@@ -1,0 +1,15 @@
+User-agent: *
+#
+# Carpetas que no deseeo que indexe
+Disallow: /js/
+Disallow: /styles/
+Disallow: /flash/
+Disallow: /images/
+Disallow: /galeria/
+Disallow: /publicidad/
+Disallow: /admonitor/
+
+# En memoria de Isaac Asimov
+Disallow: /hacer-daño-a-humanos
+Disallow: /desobedecer-ordenes-de-humanos
+Disallow: /no-proteger-su-existencia-y-la-de-humanos

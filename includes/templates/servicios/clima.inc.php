@@ -1,0 +1,3 @@
+<?php
+// clima de yahoo...
+?>

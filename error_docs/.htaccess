@@ -1,0 +1,8 @@
+# Inicialización del Modrewrite
+RewriteEngine On
+
+# Indica cant de redirecciones (para evitar bucles)
+RewriteOptions MaxRedirects=10
+
+# Re-escribe url ej: secciones/demo/145-titulo-de-nota.htm -> secciones/demo/nota.php?id=145
+RewriteRule (.+)\.html$ $1.php [L,NC]

@@ -1,0 +1,11 @@
+body{background:#FFF;}
+
+.pop-imprimir{color:#000;}
+
+h2.title{color:#000;}
+
+a.printme{display:none;}
+
+.logo-print{display:block;}
+
+.logo-visual{display:none;}

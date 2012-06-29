@@ -1,0 +1,134 @@
+<html>
+<head>
+
+<title>Recomendar artículo</title>
+
+</head>
+
+<body>
+
+<div align="center">
+
+		<div align="left" style="width:540px;">
+
+		<table cellpadding='0' cellspacing='0' border='0' width='540'>
+		<tr><td style="border:1px solid #E6E6E6;padding:15px 20px 5px 20px;">
+	
+			<table cellpadding='0' cellspacing='0' border='0' width='100%'>
+			<td height="24" style="border-bottom:1px solid #E6E6E6">
+					<a style="float:left;color:#2E3192;text-decoration:none;font-family:Arial, Helvetica;font-size:12px;font-weight:bold;" title="Ir al sitio" href="{web_site}" target="_blank">Ir al sitio</a>
+					
+					
+					<span style="font-family:Arial, Helvetica;font-size:12px;float:right;color:#000000;font-weight:bold;">
+						<b><?php echo date("d/m/Y");?></b><b >&nbsp;&nbsp;|&nbsp;&nbsp;</b>Hora: <b ><?php echo date("G:i");?></b>
+					</span> 
+				</td>
+			</tr>
+			
+			<tr>
+				<td height="15"></td>
+			</tr>
+					
+			<tr>
+				<td>
+					<img src="{web_site}/images/pop/logo.png" title="" alt="{web_site}" width="176" height="70" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td height="15"></td>
+			</tr>
+			
+			<tr>
+				<td height="26" style="background:#2E3192;vertical-align:middle;">
+					<span style="color:#FFF;text-transform:uppercase;font-weight:bold;font-size:13px;font-family:Arial, Helvetica;padding-left:10px;">Noticia Recomendada</b></span>
+				</td>
+			</tr>
+			
+			<tr>
+				<td height="15"></td>
+			</tr>
+			
+			<tr><!--el primero es diferente a los demas, lleva cuatro bordes-->
+				<td>
+					<span style="display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;">Hola <b>{destinatario}</b>, <br><br>
+					<b>{nombre}</b> te recomienda el siguiente artículo en {web_site}:</span>
+				</td>
+			</tr>
+			
+			<tr>
+				<td height="15"></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<span style="background:#F0F0F0;display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;"><a style="color:#0000CC;text-decoration:underline;"href="{url}" target="_blank">{titulo}</a></span>
+				</td>
+			</tr>
+		
+			<tr>
+				<td height="15"></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<span style="display:block;line-height:140%;font-family:Arial, Helvetica;font-size:12px;">{bajada}</span>
+				</td>
+			</tr>
+			
+			<?php if ($im["mensaje"] != "") { ?>
+
+				<tr>
+					<td height="15"></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<span style="background:#F0F0F0;display:block;padding:5px 10px;line-height:140%;text-transform:uppercase;font-family:Arial, Helvetica;font-size:12px;"><b>comentario:</b></span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td height="15"></td>
+				</tr>
+				
+				<tr>
+					<td>
+						 <span style="display:block;line-height:140%;font-family:Arial, Helvetica;font-size:12px;color:#666;">{mensaje}</span>
+					</td>
+				
+				</tr>
+			
+			<?php } ?>
+			
+			<tr>
+				<td height="15"></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<span style="background:#F0F0F0;display:block;padding:11px 15px;line-height:140%;border:1px solid #E6E6E6;font-family:Arial, Helvetica;font-size:12px;"><b>Link: </b>
+					<a style="color:#0000CC;text-decoration:underline;"href="{url}" target="_blank">{url}</a></span>
+				</td>
+			</tr>
+					
+	
+			<tr><td height="50"></td></tr>
+			
+			<tr>
+				<td height="40" valign="middle" style="border-top:1px solid #E6E6E6;text-align:left">
+					<span style="color:#2E3192;font-family:Arial, Helvetica;font-size:11px;">© <?php echo date("Y");?>, {web_site}. Todos los derechos reservados </span>
+				</td>
+			</tr>
+	
+			</table>
+	
+		</td></tr>
+		</table>
+
+	</div>
+	
+</div>
+
+</body>
+</html>

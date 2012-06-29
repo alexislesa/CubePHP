@@ -1,0 +1,156 @@
+[unsupported_media_type.html]
+
+415 - Tipo incompatible
+
+La página solicitada se encuentra en un formato que el navegador no admite. 
+Puede tratar de encontrar la información que buscaba accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[bad_gateway.htm]
+
+502 - Error de proxy
+
+El navegador ha recibido una respuesta no válida del servidor. Intente acceder a esta información más tarde.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[bad_request.htm]
+
+400 - Error de solicitud
+
+El servidor no pudo entender la dirección URL solicitada.
+Puede tratar de encontrar la información que buscaba accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[forbidden.htm]
+
+403 - El servidor ha rechazado su solicitud
+
+No posee permisos para acceder a la página solicitada. Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[gone.htm]
+
+410 - No disponible
+
+La página que intenta acceder ya no existe en el servidor. Puede continuar navegando el sitio accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[internal_server_error.htm]
+
+500 - Error interno del servidor
+
+Se ha producido un error en el servidor y no puede completar la solicitud. 
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[method_not_allowed.htm]
+
+405 - Método no permitido
+
+La dirección Url que intenta acceder no es posible desde el método solicitado.
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[not_acceptable.htm]
+
+406 - No aceptable
+
+La página solicitada posee características de contenidos que no son aceptables
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[not_found.htm]
+
+404 - Página no disponible
+
+La página que usted solicitó no se encuentra disponible en este momento.
+Puede tratar de encontrar la página accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[not_implemented.htm]
+
+501 - No implementado
+
+El servidor no posee la funcionalidad requerida para procesar esta página.
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[precondition_failed.htm]
+
+412 - Fallo de precondición
+
+El servidor no cumple con una de las condiciones previas que la página solicitada requiere.
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[proxy_authentication_required.htm]
+
+407 - Requiere autenticación de Proxy
+
+La página a la que intenta ingresar requiere la autenticación previa del servidor de proxy.
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[request_uri_too_long.htm]
+
+414 - Solicitud demasiado larga
+
+El servidor no puede procesar la dirección URL de la página solicitada porque es demasiado larga.
+Puede tratar de encontrar la página accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+[unauthorized.htm]
+
+401 - No Autorizado
+
+La página que intenta acceder requiere autorización. 
+Puede continuar navegando accediendo a:
+- Página de inicio
+- Secciones desde nuestro menú o desde nuestro pie de página
